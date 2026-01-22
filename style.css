@@ -9,7 +9,7 @@ body {
     color: #333;
 }
 
-/* NAVBAR */
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -17,7 +17,7 @@ body {
     background: white;
 }
 
-/* HERO */
+
 .hero {
     display: flex;
     min-height: 90vh;
@@ -43,13 +43,12 @@ body {
 
 .hero-img {
     flex: 1;
-    background-image: url("/hero.png");
+    background-image: url("https://github.com/Yashu257/Template/blob/main/hero.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-/* FEATURES */
 .features {
     display: flex;
 }
@@ -64,7 +63,7 @@ body {
 .blue { background: #3fc1c9; }
 .teal { background: #1fbfb8; }
 
-/* ABOUT */
+
 .about {
     text-align: center;
     padding: 80px 20px;
@@ -74,7 +73,7 @@ body {
     margin-top: 20px;
 }
 
-/* SPLIT */
+
 .split {
     display: flex;
     min-height: 60vh;
@@ -92,11 +91,11 @@ body {
 }
 
 .about-img {
-    background-image: url("/about.png");
+    background-image: url("https://github.com/Yashu257/Template/blob/main/about.png");
 }
 
 .service-img {
-    background-image: url("/service.png");
+    background-image: url("https://github.com/Yashu257/Template/blob/main/service.png");
 }
 
 .split-text {
@@ -106,7 +105,7 @@ body {
     color: white;
 }
 
-/* SERVICES */
+
 .services {
     text-align: center;
     padding: 80px 20px;
@@ -124,7 +123,6 @@ body {
     background: #f4f4f4;
 }
 
-/* CTA */
 .cta {
     background: #3fc1c9;
     color: white;
@@ -132,7 +130,7 @@ body {
     padding: 50px;
 }
 
-/* FOOTER */
+
 footer {
     background: black;
     color: white;
@@ -140,7 +138,7 @@ footer {
     padding: 40px;
 }
 
-/* 📱 RESPONSIVE */
+
 @media (max-width: 992px) {
 
     .hero {
@@ -186,4 +184,5 @@ footer {
         padding: 30px 20px;
     }
 }
+
 
