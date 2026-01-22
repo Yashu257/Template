@@ -43,7 +43,7 @@ body {
 
 .hero-img {
     flex: 1;
-    background-image: url("https://github.com/Yashu257/Template/blob/main/hero.png");
+    background-image: url("https://raw.githubusercontent.com/Yashu257/Template/refs/heads/main/hero.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -91,11 +91,11 @@ body {
 }
 
 .about-img {
-    background-image: url("https://github.com/Yashu257/Template/blob/main/about.png");
+    background-image: url("https://raw.githubusercontent.com/Yashu257/Template/refs/heads/main/about.png");
 }
 
 .service-img {
-    background-image: url("https://github.com/Yashu257/Template/blob/main/service.png");
+    background-image: url("https://raw.githubusercontent.com/Yashu257/Template/refs/heads/main/service.png");
 }
 
 .split-text {
@@ -184,5 +184,6 @@ footer {
         padding: 30px 20px;
     }
 }
+
 
 
